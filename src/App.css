@@ -1117,28 +1117,87 @@ a {
     min-height: 190px;
   }
 
+  /* ===========================
+     MOBILE FOOTER
+  =========================== */
+
   .footer-inner {
     min-height: auto;
 
     flex-direction: column;
+    align-items: center;
 
-    align-items: flex-start;
+    gap: 22px;
 
-    gap: 28px;
+    padding: 34px 0 28px;
 
-    padding: 38px 0;
+    text-align: center;
+  }
+
+  .footer-main {
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+
+    gap: 14px;
+
+    text-align: center;
   }
 
   .footer-logo-wrap {
-    width: 78px;
-    height: 78px;
+    width: 82px;
+    height: 82px;
+
+    border-radius: 20px;
+  }
+
+  .footer-brand-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .footer-brand-text span {
+    font-size: 8px;
   }
 
   .footer-brand-text h3 {
-    font-size: 19px;
+    margin-top: 6px;
+
+    font-size: 20px;
+  }
+
+  .footer-brand-text p {
+    max-width: 280px;
+
+    margin-top: 6px;
+
+    font-size: 10px;
+    line-height: 1.7;
   }
 
   .footer-signature {
-    align-items: flex-start;
+    width: 100%;
+
+    align-items: center;
+
+    gap: 6px;
+
+    padding-top: 18px;
+
+    border-top: 1px solid var(--border);
+
+    text-align: center;
+  }
+
+  .footer-signature span {
+    font-size: 8px;
+  }
+
+  .footer-signature small {
+    font-size: 8px;
   }
 }
